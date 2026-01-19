@@ -1,0 +1,45 @@
+#container{
+    display: flex;
+    flex-flow: column;
+    flex-basis: 900px;
+    height: 250px;
+    border: 2px solid black;
+}
+.sqrs{
+    display: flex;
+    flex-flow: row wrap;
+    flex: 0 1 850px;
+}
+
+.sqr{
+    display: flex;
+    background-color: red;
+    border: 0.00008px solid black;
+    flex: 1 0 5%;
+}
+.sqr:hover{
+    color: grey;
+    background-color:darkturquoise;
+    cursor:crosshair;
+}
+
+.btn{
+    order: 1;
+    cursor: pointer;
+    flex: 0 0 100px;
+    flex-flow: row wrap;
+    font-size: 7px;
+    height: 30px;
+}
+.btn:hover{
+    color: turquoise;
+    background-color: darkgrey;
+}
+
+.btnContainer{
+    display: flex;
+    flex: 0 0 auto;
+    order: 1;
+    align-items: center;
+    justify-content: center;
+}
