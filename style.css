@@ -1,8 +1,8 @@
 #container{
     display: flex;
     flex-flow: column;
-    flex-basis: 900px;
-    height: 250px;
+    flex-basis: 600px;
+    height: 450px;
     border: 2px solid black;
 }
 .sqrs{
@@ -14,7 +14,7 @@
 .sqr{
     display: flex;
     background-color: red;
-    border: 0.00008px solid black;
+    border: 0.00008px solid white;
     flex: 1 0 5%;
 }
 .sqr:hover{
